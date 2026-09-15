@@ -1,0 +1,194 @@
+site_name: Aplicacions Ofimàtiques · 1r SMX
+site_description: Mòdul 0223 · Aplicacions Ofimàtiques · 1r SMX · Curs 2026-2027
+site_author: Samuel Viel Malonda
+# ── CANVIA ACÍ el teu usuari de GitHub i el nom del repositori ──────────
+site_url: https://samuelviel.github.io/AOF_SMX_2627/
+repo_url: https://github.com/samuelviel/AOF_SMX_2627
+repo_name: AOF_SMX_2627
+edit_uri: edit/main/docs/
+copyright: © 2026-2027 Samuel Viel Malonda · CC BY-SA 4.0
+
+theme:
+  name: material
+  language: ca
+  favicon: assets/favicon.svg
+  logo: assets/favicon.svg
+  icon:
+    repo: fontawesome/brands/github
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Mode fosc
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clar
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.tooltips
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/samuelviel
+  generator: false
+
+plugins:
+  - search:
+      lang: es
+
+nav:
+  - Inici: index.md
+  - El curs:
+      - Com s'avalua: recursos/avaluacio.md
+      - Ús de la IA: recursos/ia.md
+      - El portafoli: recursos/portafoli.md
+      - La mesa d'ajuda (RA9): recursos/mesa_ajuda.md
+      - Calendari complet: recursos/calendari.md
+  - Situacions:
+      - S0 · Fundem l'empresa: S0_Fundacio/index.md
+      - S1 · Posada en marxa:
+          - S1_Posada_marxa/index.md
+          - Teoria:
+              - 1. El lloc de treball: S1_Posada_marxa/teoria/1_lloc_treball.md
+              - 2. Programari i llicències: S1_Posada_marxa/teoria/2_llicencies.md
+              - 3. Instal·lar i configurar: S1_Posada_marxa/teoria/3_installacio.md
+              - 4. Documentar i resoldre: S1_Posada_marxa/teoria/4_documentar.md
+          - Activitats:
+              - A1. Els equips han arribat: S1_Posada_marxa/activitats/A1_installacio.md
+              - "A2. Posa-ho pirata": S1_Posada_marxa/activitats/A2_llicencies.md
+              - A3. Guerra de formats: S1_Posada_marxa/activitats/A3_compatibilitat.md
+              - A4. El primer parte: S1_Posada_marxa/activitats/A4_incidencia.md
+      - S2 · Identitat documental:
+          - S2_Identitat_documental/index.md
+          - Teoria:
+              - 1. Configurar l'eina: S2_Identitat_documental/teoria/1_entorn.md
+              - 2. Estils i plantilles: S2_Identitat_documental/teoria/2_estils.md
+              - 3. Text, imatges i formats: S2_Identitat_documental/teoria/3_objectes.md
+              - 4. Documents de gran volum: S2_Identitat_documental/teoria/4_gran_volum.md
+              - 5. Macros: S2_Identitat_documental/teoria/5_macros.md
+          - Activitats:
+              - A1. La plantilla corporativa: S2_Identitat_documental/activitats/A1_plantilla.md
+              - A2. El manual del client: S2_Identitat_documental/activitats/A2_manual.md
+              - A3. La macro que estalvia hores: S2_Identitat_documental/activitats/A3_macro.md
+              - A4. Ho volen en un altre format: S2_Identitat_documental/activitats/A4_interoperabilitat.md
+      - S3 · Comunicació i agenda 🏆:
+          - S3_Comunicacio_agenda/index.md
+          - Teoria:
+              - 1. Anatomia del correu: S3_Comunicacio_agenda/teoria/1_correu.md
+              - 2. Safata sota control: S3_Comunicacio_agenda/teoria/2_gestio.md
+              - 3. Agenda i calendari: S3_Comunicacio_agenda/teoria/3_agenda.md
+          - Activitats:
+              - A1. El correu de l'empresa: S3_Comunicacio_agenda/activitats/A1_correu.md
+              - A2. Automatitza la safata: S3_Comunicacio_agenda/activitats/A2_filtres.md
+              - A3. L'agenda compartida: S3_Comunicacio_agenda/activitats/A3_agenda.md
+              - 🏆 Projecte integrador 1: S3_Comunicacio_agenda/activitats/P1_projecte.md
+      - S4 · Control econòmic:
+          - S4_Control_economic/index.md
+          - Teoria:
+              - 1. Dades i referències: S4_Control_economic/teoria/1_dades.md
+              - 2. Fórmules i funcions: S4_Control_economic/teoria/2_formules.md
+              - 3. Gràfics: S4_Control_economic/teoria/3_grafics.md
+              - 4. El full com a base de dades: S4_Control_economic/teoria/4_llistes.md
+              - 5. Importar, exportar i macros: S4_Control_economic/teoria/5_macros.md
+          - Activitats:
+              - A1. El pressupost: S4_Control_economic/activitats/A1_pressupost.md
+              - A2. L'inventari: S4_Control_economic/activitats/A2_inventari.md
+              - A3. El quadre de comandament: S4_Control_economic/activitats/A3_quadre.md
+              - A4. El CSV del proveïdor: S4_Control_economic/activitats/A4_csv.md
+      - S5 · Imatge de l'empresa:
+          - S5_Imatge_empresa/index.md
+          - Teoria:
+              - 1. Formats, resolució i color: S5_Imatge_empresa/teoria/1_formats.md
+              - 2. Captura i adquisició: S5_Imatge_empresa/teoria/2_captura.md
+              - 3. Edició i exportació: S5_Imatge_empresa/teoria/3_edicio.md
+          - Activitats:
+              - A1. El kit de marca: S5_Imatge_empresa/activitats/A1_marca.md
+              - A2. Captures per al manual: S5_Imatge_empresa/activitats/A2_captures.md
+              - A3. Cartell i targeta: S5_Imatge_empresa/activitats/A3_cartelleria.md
+      - S6 · Presentem l'empresa 🏆:
+          - S6_Presentem_empresa/index.md
+          - Teoria:
+              - 1. Entorn i vistes: S6_Presentem_empresa/teoria/1_entorn.md
+              - 2. Composició i disseny: S6_Presentem_empresa/teoria/2_disseny.md
+              - 3. Patró i plantilles: S6_Presentem_empresa/teoria/3_patro.md
+          - Activitats:
+              - A1. La plantilla de presentació: S6_Presentem_empresa/activitats/A1_plantilla.md
+              - A2. Cinc minuts per a convéncer: S6_Presentem_empresa/activitats/A2_pitch.md
+              - 🏆 Projecte integrador 2: S6_Presentem_empresa/activitats/P2_projecte.md
+      - S7 · Dades del client:
+          - S7_Dades_client/index.md
+          - Teoria:
+              - 1. Del full a la base de dades: S7_Dades_client/teoria/1_model.md
+              - 2. Taules i relacions: S7_Dades_client/teoria/2_taules.md
+              - 3. Consultes: S7_Dades_client/teoria/3_consultes.md
+              - 4. Formularis i informes: S7_Dades_client/teoria/4_formularis.md
+          - Activitats:
+              - A1. Del caos al model: S7_Dades_client/activitats/A1_model.md
+              - A2. Construïm la base de dades: S7_Dades_client/activitats/A2_construccio.md
+              - A3. Preguntes que has de respondre: S7_Dades_client/activitats/A3_consultes.md
+              - A4. L'entrega al client: S7_Dades_client/activitats/A4_entrega.md
+      - S8 · El servei d'ajuda 🏆:
+          - S8_Servei_ajuda/index.md
+          - Teoria:
+              - "1. Vídeo: formats i còdecs": S8_Servei_ajuda/teoria/1_video.md
+              - 2. Captura i gravació: S8_Servei_ajuda/teoria/2_captura.md
+              - 3. Tècniques de suport: S8_Servei_ajuda/teoria/3_suport.md
+          - Activitats:
+              - A1. El videotutorial: S8_Servei_ajuda/activitats/A1_videotutorial.md
+              - A2. La guia visual: S8_Servei_ajuda/activitats/A2_guia.md
+              - A3. Torn de mesa d'ajuda: S8_Servei_ajuda/activitats/A3_incidencies.md
+              - 🏆 Projecte integrador 3: S8_Servei_ajuda/activitats/P3_projecte.md
+  - Sobre: about.md

@@ -1,0 +1,44 @@
+:root {
+  --aof-client:    #2e7d32;
+  --aof-revisio:   #1565c0;
+  --aof-esborrany: #ef6c00;
+  --aof-no:        #c62828;
+}
+
+/* Capçalera d'encàrrec: el "correu" que arriba del client */
+.encarrec {
+  border-left: 4px solid var(--md-accent-fg-color);
+  background: var(--md-code-bg-color);
+  padding: 0.9rem 1.1rem;
+  border-radius: 0 .3rem .3rem 0;
+  margin: 1.2rem 0;
+}
+.encarrec p { margin: .35rem 0; }
+.encarrec .meta {
+  font-size: .75rem;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  opacity: .75;
+}
+
+/* Nivells de la rúbrica */
+.niv { font-weight: 700; }
+.niv-4 { color: var(--aof-client); }
+.niv-3 { color: var(--aof-revisio); }
+.niv-2 { color: var(--aof-esborrany); }
+.niv-1 { color: var(--aof-no); }
+
+/* Etiquetes de CA */
+.ca {
+  display: inline-block;
+  font-size: .72rem;
+  font-weight: 700;
+  padding: .12rem .45rem;
+  border-radius: .8rem;
+  background: var(--md-accent-fg-color);
+  color: #fff;
+  vertical-align: middle;
+}
+
+.md-typeset table:not([class]) { font-size: .74rem; }
+.md-typeset h2 { margin-top: 2rem; }
