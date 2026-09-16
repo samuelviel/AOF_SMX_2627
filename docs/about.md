@@ -20,7 +20,7 @@ L'avaluació segueix els RA i CA oficials, amb una [rúbrica de quatre nivells](
 
 ## Reconeixement
 
-L'enfocament d'este curs —situacions professionals, empresa fictícia, rúbrica de quatre nivells i projectes integradors trimestrals— està **inspirat en el treball d'[Alfredo Beneto](https://abeneto.github.io/AOF_2627/)**, company de departament, que va dissenyar i publicar la seua versió per al mateix mòdul.
+L'enfocament d'este curs —situacions professionals, empresa fictícia, rúbrica de quatre nivells i projectes integradors trimestrals— està **inspirat en el treball d'[Alberto Beneto](https://abeneto.github.io/AOF_2627/)**, company de departament, que va dissenyar i publicar la seua versió per al mateix mòdul.
 
 Els encàrrecs, els continguts, les activitats i les rúbriques d'este lloc són originals i propis, però el marc metodològic és seu. Gràcies per compartir-lo obertament: és exactament el que hauria de passar més sovint entre docents.
 
